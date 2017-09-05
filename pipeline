@@ -1,7 +1,7 @@
 stage('开始部署系统')
 node{
-        stage('开始执行SVN获取部署包') {            
-            echo "执行获取svn部署包"
+        stage('github获取code') {            
+            echo "编译代码"
        }
 }
 node{
